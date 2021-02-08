@@ -1,0 +1,108 @@
+html, body
+
+
+{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+body
+
+
+{
+  font-family: 'Kaushan Script', cursive;
+}
+
+
+
+.flex-container
+
+{
+ display: flex;
+ flex-direction: column;
+ height: 100%;
+ width: 100%;
+}
+
+
+
+.content
+
+{
+ background: url("header-background.jpeg") no-repeat center center fixed; 
+ background-repeat: no-repeat;
+ background-size: cover; 
+ flex: 40 1 auto;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+
+
+
+.content::before
+
+{
+ background-color: rgb(232, 248, 113, 0.37);
+ content: '';
+ display: block;
+ height: 92%;
+ position: absolute;
+ width: 100%;
+}
+
+
+.nav
+
+{
+ flex: 1 1 auto;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin: 0 20px;
+}
+
+
+.text
+
+{
+ font-size: 38px;
+ color: white;
+ z-index:  5;
+}
+
+
+.text > span
+
+{
+ color: pink;
+ font-size: 48px;
+}
+
+
+
+input
+
+{
+ border: 2px black solid;
+ border-radius: 5px;
+ font-size: 28px;
+ font-family: 'Kaushan Script', cursive;
+ z-index:  10;
+
+}
+
+
+.menu
+
+{
+	
+color:pink;
+font-size: 24px;
+
+}
